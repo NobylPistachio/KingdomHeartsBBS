@@ -1,0 +1,338 @@
+[
+    {
+        "Command": "Homing Slide",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Magnera",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Homing Slide",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Air Slide",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Homing Slide",
+        "1st Ingredient": "Magnet",
+        "2nd Ingredient": "Air Slide",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Thunder Roll",
+        "1st Ingredient": "Thunder Surge",
+        "2nd Ingredient": "Dodge Roll",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Thunder Roll",
+        "1st Ingredient": "Thundaga",
+        "2nd Ingredient": "Dodge Roll",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Thunder Roll",
+        "1st Ingredient": "Stun Block",
+        "2nd Ingredient": "Dodge Roll",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Firewheel",
+        "1st Ingredient": "Firaga",
+        "2nd Ingredient": "Cartwheel",
+        "Type": "B",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Firewheel",
+        "1st Ingredient": "Fission Firaga",
+        "2nd Ingredient": "Cartwheel",
+        "Type": "B",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Firewheel",
+        "1st Ingredient": "Fire Surge",
+        "2nd Ingredient": "Cartwheel",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Ice Slide",
+        "1st Ingredient": "Blizzard Edge",
+        "2nd Ingredient": "Air Slide",
+        "Type": "F",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Ice Slide",
+        "1st Ingredient": "Blizzaga",
+        "2nd Ingredient": "Air Slide",
+        "Type": "H",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Glide",
+        "1st Ingredient": "Fire Surge",
+        "2nd Ingredient": "Glide",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Glide",
+        "1st Ingredient": "Firaga",
+        "2nd Ingredient": "Glide",
+        "Type": "B",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Renewal Block",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Block",
+        "Type": "P",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Renewal Block",
+        "1st Ingredient": "Esuna",
+        "2nd Ingredient": "Block",
+        "Type": "C",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Stun Block",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Block",
+        "Type": "L",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Stun Block",
+        "1st Ingredient": "Thundaga",
+        "2nd Ingredient": "Block",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Poison Block",
+        "1st Ingredient": "Poison Edge",
+        "2nd Ingredient": "Block",
+        "Type": "H",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Poison Block",
+        "1st Ingredient": "Poison",
+        "2nd Ingredient": "Block",
+        "Type": "P",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Renewal Barrier",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Barrier",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Renewal Barrier",
+        "1st Ingredient": "Esuna",
+        "2nd Ingredient": "Barrier",
+        "Type": "N",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Confuse Barrier",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Barrier",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Confuse Barrier",
+        "1st Ingredient": "Confuse",
+        "2nd Ingredient": "Barrier",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Stop Barrier",
+        "1st Ingredient": "Stopga",
+        "2nd Ingredient": "Barrier",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Payback Fang",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Counter Hammer",
+        "Type": "P",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Payback Raid",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Strike Raid",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Payback Surge",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Fire Surge",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Payback Surge",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Thunder Surge",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    }
+]

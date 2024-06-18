@@ -1,0 +1,194 @@
+[
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Dark Haze",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Air Slide",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Thunder Surge",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Thundara",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Thunder",
+        "2nd Ingredient": "Thundara",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Thundara",
+        "2nd Ingredient": "Thundara",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Lightning Ray",
+        "1st Ingredient": "Aeroga",
+        "2nd Ingredient": "Barrier Surge",
+        "Type": "-",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Meteor Shower",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Thundaga",
+        "Type": "-",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "15"
+    },
+    {
+        "Command": "Meteor Shower",
+        "1st Ingredient": "Freeze Raid",
+        "2nd Ingredient": "Thundaga",
+        "Type": "-",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "15"
+    },
+    {
+        "Command": "Meteor Shower",
+        "1st Ingredient": "Firaga",
+        "2nd Ingredient": "Thundaga",
+        "Type": "-",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "15"
+    },
+    {
+        "Command": "Meteor Shower",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Zero Graviga",
+        "Type": "-",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Bio Barrage",
+        "1st Ingredient": "Poison Edge",
+        "2nd Ingredient": "Block",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Bio Barrage",
+        "1st Ingredient": "Poison",
+        "2nd Ingredient": "Block",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Bio Barrage",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Poison",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Bio Barrage",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Poison",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Bio Barrage",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Poison",
+        "Type": "-",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "5"
+    }
+]

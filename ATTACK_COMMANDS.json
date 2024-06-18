@@ -1,0 +1,1418 @@
+[
+    {
+        "Command": "Blitz",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Slot Edge",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Blitz",
+        "1st Ingredient": "Barrier Surge",
+        "2nd Ingredient": "Wishing Edge",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Blitz",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Slot Edge",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Meteor Crash",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Quake",
+        "Type": "N",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Meteor Crash",
+        "1st Ingredient": "Fire Strike",
+        "2nd Ingredient": "Brutal Blast",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Magic Hour",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Zero Graviga",
+        "Type": "O",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Magic Hour",
+        "1st Ingredient": "Barrier Surge",
+        "2nd Ingredient": "Aeroga",
+        "Type": "N",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Fire Dash",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Fire",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Dash",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Fira",
+        "Type": "C",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Dash",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Fire",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Dark Haze",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Zero Gravira",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Dark Haze",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Blackout",
+        "Type": "A",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Dark Haze",
+        "1st Ingredient": "Fire Surge",
+        "2nd Ingredient": "Zero Gravity",
+        "Type": "C",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Sonic Blade",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Dark Haze",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Sonic Blade",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Air Slide",
+        "Type": "N",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Sonic Blade",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Thunder Surge",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Chaos Blade",
+        "1st Ingredient": "Dark Haze",
+        "2nd Ingredient": "Sonic Blade",
+        "Type": "B",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Zantetsuken",
+        "1st Ingredient": "Dark Haze",
+        "2nd Ingredient": "Stopga",
+        "Type": "B",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Zantetsuken",
+        "1st Ingredient": "Sonic Blade",
+        "2nd Ingredient": "Stopga",
+        "Type": "F",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Strike Raid",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Sliding Dash",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Freeze Raid",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Blizzara",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Freeze Raid",
+        "1st Ingredient": "Blizzard Edge",
+        "2nd Ingredient": "Binding Strike",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Treasure Raid",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Slot Edge",
+        "Type": "O",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Treasure Raid",
+        "1st Ingredient": "Slot Edge",
+        "2nd Ingredient": "Magnet",
+        "Type": "D",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Treasure Raid",
+        "1st Ingredient": "Slot Edge",
+        "2nd Ingredient": "Magnera",
+        "Type": "K",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Spark Raid",
+        "1st Ingredient": "Freeze Raid",
+        "2nd Ingredient": "Magnega",
+        "Type": "J",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Spark Raid",
+        "1st Ingredient": "Treasure Raid",
+        "2nd Ingredient": "Magnega",
+        "Type": "N",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Spark Raid",
+        "1st Ingredient": "Thunder Surge",
+        "2nd Ingredient": "Dodge Roll",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Spark Raid",
+        "1st Ingredient": "Thundaga",
+        "2nd Ingredient": "Dodge Roll",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Spark Raid",
+        "1st Ingredient": "Dodge Roll",
+        "2nd Ingredient": "Stun Block",
+        "Type": "L",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Wind Raid",
+        "1st Ingredient": "Freeze Raid",
+        "2nd Ingredient": "Aeroga",
+        "Type": "B",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Wind Raid",
+        "1st Ingredient": "Treasure Raid",
+        "2nd Ingredient": "Aeroga",
+        "Type": "F",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Surge",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Ignite",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Surge",
+        "1st Ingredient": "Fire Strike",
+        "2nd Ingredient": "Fira",
+        "Type": "A",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Surge",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Fira",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Surge",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Fira",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Barrier Surge",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Barrier",
+        "Type": "D",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Barrier Surge",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Barrier",
+        "Type": "K",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Thunder Surge",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "Thundara",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Thunder Surge",
+        "1st Ingredient": "Freeze Raid",
+        "2nd Ingredient": "Thundara",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Thunder Surge",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Thundara",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Thunder Surge",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Thundara",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Aerial Slam",
+        "1st Ingredient": "Fire Dash",
+        "2nd Ingredient": "High Jump",
+        "Type": "A",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Aerial Slam",
+        "1st Ingredient": "Fire Surge",
+        "2nd Ingredient": "Aero",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Aerial Slam",
+        "1st Ingredient": "Fire Strike",
+        "2nd Ingredient": "Aerora",
+        "Type": "C",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Dark Haze",
+        "2nd Ingredient": "Sonic Blade",
+        "Type": "B",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Dark Haze",
+        "2nd Ingredient": "Stopga",
+        "Type": "B",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Sonic Blade",
+        "2nd Ingredient": "Stopga",
+        "Type": "F",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Thunder",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Thunder",
+        "Type": "L",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Thundara",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Solum",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Thundara",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Blitz",
+        "2nd Ingredient": "Aerial Slam",
+        "Type": "F",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Slot Edge",
+        "Type": "O",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Fire Strike",
+        "2nd Ingredient": "Aerora",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Blizzard",
+        "Type": "G",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Blizzara",
+        "Type": "H",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Blizzard",
+        "Type": "E",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Blizzara",
+        "Type": "G",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Poison Edge",
+        "2nd Ingredient": "Cura",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Ars Arcanum",
+        "1st Ingredient": "Blizzard Edge",
+        "2nd Ingredient": "Cura",
+        "Type": "G",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "5"
+    },
+    {
+        "Command": "Time Splicer",
+        "1st Ingredient": "Aerial Slam",
+        "2nd Ingredient": "Stopga",
+        "Type": "F",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Time Splicer",
+        "1st Ingredient": "Stopga",
+        "2nd Ingredient": "Barrier",
+        "Type": "C",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Time Splicer",
+        "1st Ingredient": "Barrier Surge",
+        "2nd Ingredient": "Wishing Edge",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Time Splicer",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Slot Edge",
+        "Type": "K",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Poison Edge",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Poison",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Poison Edge",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Poison",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Poison Edge",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Poison",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Wishing Edge",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Barrier Surge",
+        "Type": "O",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Wishing Edge",
+        "1st Ingredient": "Barrier Surge",
+        "2nd Ingredient": "Stun Edge",
+        "Type": "K",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Wishing Edge",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Binding Strike",
+        "Type": "J",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Blizzard Edge",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Blizzard",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Blizzard Edge",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Blizzara",
+        "Type": "H",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Blizzard Edge",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Blizzard",
+        "Type": "E",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Blizzard Edge",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Blizzara",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Stun Edge",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Thunder",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Stun Edge",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Thunder",
+        "Type": "L",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Stun Edge",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Thundara",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Wishing Edge",
+        "2nd Ingredient": "Cure",
+        "Type": "O",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Poison Edge",
+        "2nd Ingredient": "Cura",
+        "Type": "P",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Blizzard Edge",
+        "2nd Ingredient": "Cura",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "95"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Renewal Block",
+        "Type": "N",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Focus Block",
+        "Type": "P",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Renewal Barrier",
+        "Type": "N",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Slot Edge",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Focus Barrier",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "90"
+    },
+    {
+        "Command": "Fire Strike",
+        "1st Ingredient": "Poison Edge",
+        "2nd Ingredient": "Fira",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Strike",
+        "1st Ingredient": "Wishing Edge",
+        "2nd Ingredient": "Ignite",
+        "Type": "A",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Fire Strike",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Fire",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Confusion Strike",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Confuse",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Confusion Strike",
+        "1st Ingredient": "Sliding Dash",
+        "2nd Ingredient": "Zero Gravity",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Confusion Strike",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Confuse",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Binding Strike",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Bind",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Binding Strike",
+        "1st Ingredient": "Strike Raid",
+        "2nd Ingredient": "Bind",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Binding Strike",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Zero Gravity",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Brutal Blast",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Mine Shield",
+        "Type": "O",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "70"
+    },
+    {
+        "Command": "Brutal Blast",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Mine Square",
+        "Type": "L",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "70"
+    },
+    {
+        "Command": "Tornado Strike",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Aeroga",
+        "Type": "G",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Tornado Strike",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Aeroga",
+        "Type": "F",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Magnet Spiral",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Collision Magnet",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Magnet Spiral",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Magnega",
+        "Type": "J",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Magnet Spiral",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Magnera",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Magnet Spiral",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Magnera",
+        "Type": "L",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Magnet Spiral",
+        "1st Ingredient": "Zero Gravira",
+        "2nd Ingredient": "Magnet",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "20"
+    },
+    {
+        "Command": "Windcutter",
+        "1st Ingredient": "Binding Strike",
+        "2nd Ingredient": "Aeroga",
+        "Type": "F",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Windcutter",
+        "1st Ingredient": "Confusion Strike",
+        "2nd Ingredient": "Aeroga",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Limit Storm",
+        "1st Ingredient": "Brutal Blast",
+        "2nd Ingredient": "Confusion Strike",
+        "Type": "G",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Limit Storm",
+        "1st Ingredient": "Brutal Blast",
+        "2nd Ingredient": "Binding Strike",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Salvation",
+        "1st Ingredient": "Wind Raid",
+        "2nd Ingredient": "Curaga",
+        "Type": "N",
+        "Used By": {
+            "Terra": false,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Collision Magnet",
+        "1st Ingredient": "Quick Blitz",
+        "2nd Ingredient": "Magnera",
+        "Type": "K",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Collision Magnet",
+        "1st Ingredient": "Stun Edge",
+        "2nd Ingredient": "Magnera",
+        "Type": "L",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Collision Magnet",
+        "1st Ingredient": "Zero Gravira",
+        "2nd Ingredient": "Magnet",
+        "Type": "I",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": true
+        },
+        "%": "80"
+    },
+    {
+        "Command": "Geo Impact",
+        "1st Ingredient": "Brutal Blast",
+        "2nd Ingredient": "Brutal Blast",
+        "Type": "N",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "70"
+    },
+    {
+        "Command": "Sacrifice",
+        "1st Ingredient": "Dark Haze",
+        "2nd Ingredient": "Warp",
+        "Type": "B",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Sacrifice",
+        "1st Ingredient": "Poison Edge",
+        "2nd Ingredient": "Warp",
+        "Type": "D",
+        "Used By": {
+            "Terra": true,
+            "Ventus": false,
+            "Aqua": false
+        },
+        "%": "100"
+    },
+    {
+        "Command": "Break Time",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Renewal Block",
+        "Type": "N",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Break Time",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Renewal Barrier",
+        "Type": "N",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Break Time",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Focus Block",
+        "Type": "P",
+        "Used By": {
+            "Terra": true,
+            "Ventus": true,
+            "Aqua": false
+        },
+        "%": "10"
+    },
+    {
+        "Command": "Break Time",
+        "1st Ingredient": "Curaga",
+        "2nd Ingredient": "Focus Barrier",
+        "Type": "P",
+        "Used By": {
+            "Terra": false,
+            "Ventus": false,
+            "Aqua": true
+        },
+        "%": "10"
+    }
+]

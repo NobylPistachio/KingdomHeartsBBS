@@ -1,0 +1,146 @@
+{
+    "Type A": {
+        "Shimmering": "Fire Boost",
+        "Fleeting": "Magic Haste",
+        "Pulsing": "Leaf Bracer",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "HP Boost",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "Link Prize Plus"
+    },
+    "Type B": {
+        "Shimmering": "Fire Boost",
+        "Fleeting": "Reload Boost",
+        "Pulsing": "Finish Boost",
+        "Wellspring": "Once More",
+        "Soothing": "Damage Syphon",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "EXP Chance"
+    },
+    "Type C": {
+        "Shimmering": "Fire Screen",
+        "Fleeting": "Attack Haste",
+        "Pulsing": "Finish Boost",
+        "Wellspring": "Combo Plus",
+        "Soothing": "HP Boost",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "Link Prize Plus"
+    },
+    "Type D": {
+        "Shimmering": "Fire Screen",
+        "Fleeting": "Attack Haste  ",
+        "Pulsing": "Leaf Bracer",
+        "Wellspring": "Combo Plus",
+        "Soothing": "HP Boost",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "Link Prize Plus"
+    },
+    "Type E": {
+        "Shimmering": "Blizzard Boost",
+        "Fleeting": "Magic Haste",
+        "Pulsing": "Leaf Bracer",
+        "Wellspring": "Combo Plus",
+        "Soothing": "Item Boost",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "Lucky Strike"
+    },
+    "Type F": {
+        "Shimmering": "Blizzard Boost",
+        "Fleeting": "Reload Boost",
+        "Pulsing": "Second Chance",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "Damage Syphon",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "Lucky Strike"
+    },
+    "Type G": {
+        "Shimmering": "Blizzard Screen",
+        "Fleeting": "Attack Haste",
+        "Pulsing": "Leaf Bracer",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "Item Boost",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "Luck Boost"
+    },
+    "Type H": {
+        "Shimmering": "Blizzard Screen",
+        "Fleeting": "Magic Haste",
+        "Pulsing": "Combo F Boost",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "Item Boost",
+        "Hungry": "HP Prize Plus",
+        "Abounding": "EXP Walker"
+    },
+    "Type I": {
+        "Shimmering": "Thunder Boost",
+        "Fleeting": "Magic Haste",
+        "Pulsing": "Combo F Boost",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "HP Boost",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "Link Prize Plus"
+    },
+    "Type J": {
+        "Shimmering": "Thunder Boost",
+        "Fleeting": "Reload Boost",
+        "Pulsing": "Combo F Boost",
+        "Wellspring": "Once More",
+        "Soothing": "Defender",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "EXP Chance"
+    },
+    "Type K": {
+        "Shimmering": "Thunder Screen",
+        "Fleeting": "Attack Haste",
+        "Pulsing": "Finish Boost",
+        "Wellspring": "Combo Plus",
+        "Soothing": "HP Boost",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "Link Prize Plus"
+    },
+    "Type L": {
+        "Shimmering": "Thunder Screen",
+        "Fleeting": "Attack Haste",
+        "Pulsing": "Finish Boost",
+        "Wellspring": "Combo Plus",
+        "Soothing": "HP Boost",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "Lucky Strike"
+    },
+    "Type M": {
+        "Shimmering": "Cure Boost",
+        "Fleeting": "Magic Haste",
+        "Pulsing": "Combo F Boost",
+        "Wellspring": "Combo Plus",
+        "Soothing": "Item Boost",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "Lucky Strike"
+    },
+    "Type N": {
+        "Shimmering": "Cure Boost",
+        "Fleeting": "Reload Boost",
+        "Pulsing": "Second Chance",
+        "Wellspring": "Combo Plus",
+        "Soothing": "Defender",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "Lucky Strike"
+    },
+    "Type O": {
+        "Shimmering": "Dark Screen",
+        "Fleeting": "Attack Haste",
+        "Pulsing": "Finish Boost",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "Item Boost",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "Lucky Strike"
+    },
+    "Type P": {
+        "Shimmering": "Dark Screen",
+        "Fleeting": "Magic Haste",
+        "Pulsing": "Combo F Boost",
+        "Wellspring": "Air Combo Plus",
+        "Soothing": "Item Boost",
+        "Hungry": "Treasure Magnet",
+        "Abounding": "EXP Walker"
+    }
+}
