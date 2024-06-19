@@ -4,17 +4,17 @@ from pprint import pprint
 
 logging.basicConfig(level=logging.INFO)
 
-bbs_melding_guide:dict = json.load(open("BBS_MELDING_GUIDE.json"))
+BBS_MELDING_GUIDE:dict = json.load(open("BBS_MELDING_GUIDE.json"))
 
 CRYSTALS = ["Shimmering","Fleeting","Pulsing","Wellspring","Soothing","Hungry","Abounding"]
 
 #Sort the melding guide by character
 def by_character(character:str) -> dict:
-    if character == "Any":
-        return bbs_melding_guide
+    if character == "Any" or not character:
+        return BBS_MELDING_GUIDE
     else:
         guide = {}
-        for table_name, table in bbs_melding_guide.items():
+        for table_name, table in BBS_MELDING_GUIDE.items():
             if table_name == "Crystal Melding Outcomes":
                 guide[table_name] = table
                 continue
@@ -53,8 +53,7 @@ def get_unique_commands(guide) -> list:
     return all_commands
 
 def get_other_ingredient(command:str,list_of_melds) -> list:
-    result = []
-    # print(list_of_melds)
+    result = ['']
     for meld in list_of_melds:
         if meld["1st Ingredient"] == command:
             if meld['2nd Ingredient'] not in result:
@@ -65,7 +64,7 @@ def get_other_ingredient(command:str,list_of_melds) -> list:
     return result
 
 def get_unique_ingredients(guide) -> list:
-    all_commands = []
+    all_commands = ['']
     for table_name, table in guide.items():
         if table_name != "Crystal Melding Outcomes":
             for meld in table:
@@ -76,8 +75,8 @@ def get_unique_ingredients(guide) -> list:
     all_commands.sort()
     return all_commands
 
-def get_meld(command1:str,command2:str) -> dict:
-    for table_name, table in bbs_melding_guide.items():
+def get_meld(command1:str,command2:str):
+    for table_name, table in BBS_MELDING_GUIDE.items():
         if table_name != "Crystal Melding Outcomes":
             for meld in table:
                 if meld['1st Ingredient'] == command1 and meld['2nd Ingredient'] == command2:
@@ -86,3 +85,21 @@ def get_meld(command1:str,command2:str) -> dict:
                     return meld['Command']
     logging.debug("No meld found for %s and %s",command1,command2)
     return None
+
+def get_type(command1:str,command2:str) -> str:
+    for table_name, table in BBS_MELDING_GUIDE.items():
+        if table_name != "Crystal Melding Outcomes":
+            for meld in table:
+                if meld['1st Ingredient'] == command1 and meld['2nd Ingredient'] == command2:
+                    return meld['Type']
+                elif meld['1st Ingredient'] == command2 and meld['2nd Ingredient'] == command1:
+                    return meld['Type']
+    logging.debug("No meld found for %s and %s",command1,command2)
+    return None
+
+def get_ability(crystal,meld_type) -> str:
+        
+    if not crystal or not meld_type:
+        return ""
+    return BBS_MELDING_GUIDE["Crystal Melding Outcomes"][f'Type {meld_type}'][crystal]
+    

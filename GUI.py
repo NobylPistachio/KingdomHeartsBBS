@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 from BBS_Helper import by_character as get_character_guide
-from BBS_Helper import get_unique_ingredients,CRYSTALS,by_command_ingredient,get_other_ingredient,get_meld
+from BBS_Helper import get_unique_ingredients,CRYSTALS,by_command_ingredient,get_other_ingredient,get_meld,get_type,get_ability
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -46,12 +46,18 @@ class BBS_Guide:
         self.command2_dropdown = ttk.Combobox(self.command_options_frame,width=20,values=get_unique_ingredients(self.guide_data))
         self.command2_dropdown.bind("<<ComboboxSelected>>", self.on_command_selection)
         self.crystal_type_dropdown = ttk.Combobox(self.command_options_frame,width=20,values=CRYSTALS)
-        self.crystal_type_dropdown.bind("<<ComboboxSelected>>", self.on_command_selection)
+        self.crystal_type_dropdown.bind("<<ComboboxSelected>>", self.on_crystal_selection)
             #Frame 3
         self.meld_result_label = tk.Label(self.results_frame, text="Meld Result: ")
         self.result_var = tk.StringVar()
-        self.meld_result = tk.Label(self.results_frame,width=20,height=1,textvariable=self.result_var,background="lightgrey")
-        
+        self.meld_result = tk.Label(self.results_frame,width=12,height=1,textvariable=self.result_var,background="lightgrey")
+        self.meld_type_label = tk.Label(self.results_frame, text="Meld Type: ")
+        self.result_type_var = tk.StringVar()
+        self.meld_type = tk.Label(self.results_frame,width=5,height=1,textvariable=self.result_type_var,background="lightgrey")
+        self.ability_label = tk.Label(self.results_frame, text="Ability: ")
+        self.result_ability_var = tk.StringVar()
+        self.ability = tk.Label(self.results_frame,width=20,height=1,textvariable=self.result_ability_var,background="lightgrey")
+
     def on_character_selection(self, event) -> None:
         character = event.widget.get()
         print(f"selected {character}")
@@ -62,20 +68,65 @@ class BBS_Guide:
     def on_command_selection(self, event) -> None:
         command = event.widget.get()
         print(f"selected {command}")
-        self.update_other_dropdown(event.widget,command)
+        if command:
+            print("I'm a command")
+                # if it's a command restrict the other dropdown to the ingredients that can be used with the selected command 
+            self.update_other_dropdown(event.widget,command)
+        else:
+            print("I'm not a command")
+            self.update_self_dropdown(event.widget)
+
+    def on_crystal_selection(self, event) -> None:
+        crystal = event.widget.get()
+        print(f"selected {crystal}")     
+        self.result_ability_var.set(get_ability(crystal,self.result_type_var.get()))
+
+    def update_self_dropdown(self, dropdown):
+        print(f"update_self_dropdown: starting with dropdown={dropdown}")
+
+        if dropdown == self.command1_dropdown:
+            other_dropdown = self.command2_dropdown
+            other_command = self.command2_dropdown.get()
+            print(f"update_self_dropdown: other_dropdown={other_dropdown}, other_command={other_command}")
+        elif dropdown == self.command2_dropdown:
+            other_dropdown = self.command1_dropdown
+            other_command = self.command1_dropdown.get()
+            print(f"update_self_dropdown: other_dropdown={other_dropdown}, other_command={other_command}")
+
+        if other_command:
+            self.guide_data = get_character_guide(self.character_selection.get())
+            dropdown['values'] = self.get_other_ingredients(other_command, self.guide_data)
+            print(f"update_self_dropdown: dropdown['values']={dropdown['values']}")
+
+            other_dropdown['values'] = get_unique_ingredients(get_character_guide(self.character_selection.get()))
+            print(f"update_self_dropdown: other_dropdown['values']={other_dropdown['values']}")
+
+
 
     def update_other_dropdown(self, dropdown, command):
-        if dropdown ==self.command1_dropdown:
+        print(f"update_other_dropdown: dropdown={dropdown}, command={command}")
+
+        if dropdown == self.command1_dropdown:
+            print("update_other_dropdown: updating command2_dropdown")
+            #I want to update the other dropdown according to the selected command
             self.update_command_dropdown(self.command2_dropdown,command)
         elif dropdown == self.command2_dropdown:
+            print("update_other_dropdown: updating command1_dropdown")
             self.update_command_dropdown(self.command1_dropdown,command)
+
+
 
     def update_command_dropdown(self, dropdown, command):
         other_command = self.get_other_command(dropdown)
-        if other_command:
+        if not command and not other_command:
+            dropdown['values'] = self.get_other_ingredients(other_command, self.guide_data)
+        elif other_command:
             result = get_meld(command, other_command)
             self.result_var.set(result)
-            dropdown['values'] = []
+            result = get_type(command, other_command)
+            self.result_type_var.set(result)
+            self.result_ability_var.set(get_ability(self.crystal_type_dropdown.get(),self.result_type_var.get()))
+            dropdown['values'] = ['']
         else:
             dropdown['values'] = self.get_other_ingredients(command, self.guide_data)
     
@@ -93,12 +144,17 @@ class BBS_Guide:
         self.command2_dropdown.set(value="")
         self.crystal_type_dropdown.set(value="")
         self.result_var.set(value="")
+        self.result_type_var.set(value="")
+        self.result_ability_var.set(value="")
         
 
     def update_dropdowns(self) -> None:
         self.command1_dropdown['values'] = get_unique_ingredients(self.guide_data)
         self.command2_dropdown['values'] = get_unique_ingredients(self.guide_data)
 
+    def reset_dropdowns(self) -> None:
+        self.command1_dropdown['values'] = get_unique_ingredients(get_character_guide(self.character_selection.get()))
+        self.command2_dropdown['values'] = get_unique_ingredients(get_character_guide(self.character_selection.get()))
 
     def layout(self) -> None:
         self.character_frame.pack()
@@ -120,6 +176,10 @@ class BBS_Guide:
 
         self.meld_result_label.pack(side=tk.LEFT)
         self.meld_result.pack(side=tk.LEFT,padx=10)
+        self.meld_type_label.pack(side=tk.LEFT)
+        self.meld_type.pack(side=tk.LEFT,padx=10)
+        self.ability_label.pack(side=tk.LEFT)
+        self.ability.pack(side=tk.LEFT,padx=10)
 
 
     def setup(self) -> None:
